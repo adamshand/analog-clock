@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clock</title>
+  <meta charset="UTF-8">
+  <link href="main.css" rel="stylesheet">
+  <!--<link rel="icon" type="image/png" sizes="32x32" href="favpanda.jpg"> -->
+</head>
+<body id="background">
+
+<div class="clock">
+  <!-- <svg width="500" height="500"> -->
+  <svg
+    viewBox="0 0 500 500"
+    preserveAspectRatio="xMinYMin meet"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve"
+  >
+    <circle id="border"  cx="250" cy="250" r="240" />
+    <circle class="marks" id="1"  cx="360" cy="60"  r="5" />
+    <circle class="marks" id="2"  cx="440" cy="140" r="5" />
+    <circle class="marks" id="3"  cx="470" cy="250" r="7" />
+    <circle class="marks" id="4"  cx="440" cy="360" r="5" />
+    <circle class="marks" id="5"  cx="360" cy="440" r="5" />
+    <circle class="marks" id="6"  cx="250" cy="470" r="7" />
+    <circle class="marks" id="7"  cx="140" cy="440" r="5" />
+    <circle class="marks" id="8"  cx="60"  cy="360" r="5" />
+    <circle class="marks" id="9"  cx="30"  cy="250" r="7" />
+    <circle class="marks" id="10" cx="60"  cy="140" r="5" />
+    <circle class="marks" id="11" cx="140" cy="60"  r="5" />
+    <circle class="marks" id="12" cx="250" cy="30"  r="7" />
+    <!--<text id="12" x="220" y="50">12</text> -->
+    <line   id="hour"    x1="250" y1="250" x2="250" y2="100" />
+    <line   id="minute"  x1="250" y1="250" x2="250" y2="70" />
+    <line   id="second"  x1="250" y1="250" x2="250" y2="40" />
+    <line   id="tail"    x1="250" y1="250" x2="250" y2="285" />
+    <circle id="pivot"   cx="250" cy="250" r="13" />
+  </svg>
+
+
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
