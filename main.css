@@ -39,7 +39,7 @@ svg {
 }
 #hour {
   /* stroke: #FA2FBD; /**/
-  stroke: silver;
+  stroke: grey;
   stroke-width: 15;
 }
 #minute {
@@ -53,4 +53,13 @@ svg {
 #tail {
   stroke: crimson;
   stroke-width: 3;
+}
+#version {
+  position: absolute;
+  padding: .5em 1em;
+  bottom: 10px;
+  right: 10px;
+  background-color: hsl(0, 0%, 14%, .6);
+  font-size: 18px;
+  color: crimson;
 }
