@@ -56,10 +56,11 @@ svg {
 }
 #version {
   position: absolute;
-  padding: .5em 1em;
-  bottom: 10px;
-  right: 10px;
-  background-color: hsl(0, 0%, 14%, .6);
-  font-size: 18px;
-  color: crimson;
+  bottom: .5em;
+  right: .5em;
+  padding: .3em .7em;
+  background-color: hsl(0, 0%, 50%, .3);
+  font-family: 'Fantasque Sans Mono', monospace;
+  font-size: 13px;
+  color: black;
 }
