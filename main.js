@@ -21,8 +21,8 @@ function setTime() {
   rgb.push(day * (255 / 7))
   rgb.push(hour * (255 / 24))
   rgb.push(minute * (255 / 60))
-  // let opacity = second * (0.7 / 60) + 0.3
-  let opacity = second * (1 / 60)
+  let opacity = second * (0.7 / 60) + 0.3
+  // let opacity = second * (1 / 60)
 
   // assign rgb values randomly to red, green, blue
   let redIndex = second % 3
@@ -55,8 +55,6 @@ function setTime() {
   moveHand('minute', mDeg)
   moveHand('second', sDeg)
   moveHand('tail', sDeg)
-
-  //  hour = 8
 
   setTimeout(function () {
     setTime()
